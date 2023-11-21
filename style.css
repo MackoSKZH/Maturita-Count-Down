@@ -1,0 +1,37 @@
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.chat-bubble {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    animation: chatAnimation 1s ease-in-out infinite alternate;
+}
+
+@keyframes chatAnimation {
+    0% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(3px);
+    }
+}
