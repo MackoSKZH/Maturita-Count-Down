@@ -1,5 +1,5 @@
 function updateCountdown() {
-    var endDate = new Date('2024-03-12T08:00:00');
+    var endDate = new Date('2025-03-11T08:00:00');
     var currentDate = new Date();
     var timeRemaining = endDate.getTime() - currentDate.getTime();
 
